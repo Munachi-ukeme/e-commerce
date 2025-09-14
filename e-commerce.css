@@ -1,0 +1,140 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    background-color: beige;
+    align-items: center;
+    
+}
+.head h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.links a{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-right: 30px;
+}
+
+.icons{
+    display: flex;
+    gap: 40px;
+
+}
+
+
+.links a:hover{
+    border-radius: 15px;
+    border: 2px solid;
+    padding: 4px;
+    background-color: bisque;
+
+}
+
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    align-items: center;
+    padding: 20px;
+}
+
+.left{
+    flex: 1.5;
+    display: block;
+    justify-content: flex-end;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+}
+
+.left a{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.pro-cat h1{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding-top: 35px;
+}
+.pro-cat{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.all-each{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 30px;
+}
+
+.each{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: gray;
+    padding: 7px;
+
+}
+.each p{
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-color: bisque;
+    padding-bottom: 20PX;
+
+}
+
+.address h1{
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    font-size: 45px;
+}
+
+.address a{
+    display: flex;
+    color: black;
+    line-height: 25px;
+}
+
+.links-head{
+    display: flex;
+    gap: 70px;
+    font-family: sans-serif;
+}
+
+.link-1 a{
+    display: block;
+    color: black;
+    line-height: 30px;
+}
+
+.link-1 a:hover{
+    color: blueviolet;
+}
